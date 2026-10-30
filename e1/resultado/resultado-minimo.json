@@ -1,0 +1,39 @@
+{
+ "format": "EDGE-E1-RESULTADO-MINIMO-v1",
+ "nivel": "2.a (NIVEL-PUBLICACION-E1.md)",
+ "estado_final": "FINISHED",
+ "publicacion_local": "PUBLISHED",
+ "consumida_utc": "2026-10-30T10:51Z",
+ "terminada_utc": "2026-10-30T10:59Z",
+ "q2a": {
+  "referencia": "HOME_AWAY_FREQ/STATIC/F8",
+  "criterio": "F9 sobre la diferencia emparejada de log loss v0 - referencia, IC 97,5 % (Bonferroni x2), remuestreo por jornada, 2000 replicas, semilla 20260930",
+  "T-1440m": {"1X2": "MEJORA_CLARA", "BTTS": "SENAL_POSITIVA_NO_CONCLUYENTE", "OVER25": "SENAL_POSITIVA_NO_CONCLUYENTE"},
+  "T-2m": {"1X2": "MEJORA_CLARA", "BTTS": "SENAL_POSITIVA_NO_CONCLUYENTE", "OVER25": "SENAL_POSITIVA_NO_CONCLUYENTE"}
+ },
+ "q1": {
+  "minimo_remuestreos_validos": 1900,
+  "T-1440m": {
+   "HOME": {"estimacion": "ESTIMADO", "intervalo": "ESTIMADO", "motivo": null, "validos": 2000, "separados": 0},
+   "DRAW": {"estimacion": "ESTIMADO", "intervalo": "ESTIMADO", "motivo": null, "validos": 2000, "separados": 0},
+   "AWAY": {"estimacion": "ESTIMADO", "intervalo": "ESTIMADO", "motivo": null, "validos": 2000, "separados": 0},
+   "BTTS": {"estimacion": "ESTIMADO", "intervalo": "ESTIMADO", "motivo": null, "validos": 2000, "separados": 0},
+   "OVER25": {"estimacion": "ESTIMADO", "intervalo": "ESTIMADO", "motivo": null, "validos": 2000, "separados": 0}
+  },
+  "T-2m": {
+   "HOME": {"estimacion": "ESTIMADO", "intervalo": "ESTIMADO", "motivo": null, "validos": 2000, "separados": 0},
+   "DRAW": {"estimacion": "ESTIMADO", "intervalo": "ESTIMADO", "motivo": null, "validos": 2000, "separados": 0},
+   "AWAY": {"estimacion": "ESTIMADO", "intervalo": "ESTIMADO", "motivo": null, "validos": 2000, "separados": 0},
+   "BTTS": {"estimacion": "ESTIMADO", "intervalo": "ESTIMADO", "motivo": null, "validos": 2000, "separados": 0},
+   "OVER25": {"estimacion": "ESTIMADO", "intervalo": "ESTIMADO", "motivo": null, "validos": 2000, "separados": 0}
+  }
+ },
+ "partidos": {"evaluados": 380, "excluidos": 0, "excluidos_por_motivo": {}},
+ "huellas": {
+  "commit_hoja": "765aa9a0e3234a91e92341eebc1d979bab4f0226",
+  "commit_armado": "1b00e3cc394f91ea7e566cced1a141ae8fdf02f9",
+  "hoja_sellado_sha256": "b5ce1120dab1a3a790c18e6e4e5e6715c87c8a93486d83a94521aa64a4921f38",
+  "informe_sha256": "285eaccb7f07df42c78187a154b2afcca78425815f11dd67583e021808c32f4a",
+  "e1_id": "e23b25065bc74a2abfc2a828c3f90a25"
+ }
+}
